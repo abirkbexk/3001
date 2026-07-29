@@ -1,0 +1,21 @@
+10 Interesting Things About Numerical Methods & Machine Learning
+
+1. Many ML algorithms (like gradient descent) are essentially numerical optimization methods in disguise — the "learning" in machine learning is often just an iterative numerical process searching for a minimum.
+
+2. Floating-point precision matters a lot: small rounding errors in numerical computations can compound over millions of iterations during training and affect model convergence.
+
+3. Matrix operations (linear algebra) are the computational backbone of both numerical methods and neural networks — most of what a GPU does during training is just fast matrix multiplication.
+
+4. Numerical methods like Newton's method for root-finding share the same core idea as second-order optimization techniques used in some ML training algorithms.
+
+5. Overflow and underflow (numbers becoming too large or too small for a computer to represent) are real numerical stability issues that show up in deep learning, especially with exponential functions like softmax.
+
+6. Interpolation techniques (used in numerical methods to estimate values between known data points) have parallels in how ML models generalize between training examples.
+
+7. The choice of numerical solver (e.g., Euler's method vs. Runge-Kutta for differential equations) can dramatically affect both accuracy and computation time — similar tradeoffs exist when choosing optimizers like SGD vs. Adam in ML.
+
+8. Condition numbers (a numerical methods concept describing how sensitive a system is to small input changes) help explain why some ML models are unstable or sensitive to noisy data.
+
+9. Regularization in machine learning (like L1/L2 penalties) is conceptually related to numerical techniques for stabilizing ill-posed problems.
+
+10. Many "modern" ML breakthroughs actually rely on decades-old numerical methods (like gradient-based optimization, dating back to the 19th century) applied at massive scale with modern computing power.
