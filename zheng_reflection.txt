@@ -1,0 +1,10 @@
+
+Things I found interesting:
+1. Git branches allow multiple people to work independently.
+2. GitHub stores version history.
+3. Google Colab can work with GitHub.
+
+Things I found difficult:
+1. Using Git commands.
+2. Understanding merge conflicts.
+3. Setting up authentication.
